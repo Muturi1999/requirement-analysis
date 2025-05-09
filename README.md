@@ -97,3 +97,18 @@ Non-functional requirements specify **how the system performs** under certain co
 - User data must be encrypted both in transit and at rest.
 - The system should maintain 99.9% uptime availability.
 - The user interface must be responsive and accessible on mobile devices.
+## Use Case Diagrams
+
+**Use Case Diagrams** are visual representations of the interactions between users (actors) and a system. They help in understanding what the system should do and how different users interact with it.
+
+### Benefits of Use Case Diagrams:
+- Provide a high-level overview of the system’s functionality.
+- Help identify different user roles and their goals.
+- Support requirement validation by visualizing user interactions.
+- Serve as a communication tool between stakeholders and developers.
+
+### Use Case Diagram for Booking Management System
+
+The following diagram illustrates the primary actors and use cases in a simple booking system:
+
+![Still drawing Use Case Diagram and will import it as ](alx-booking-uc.png)
