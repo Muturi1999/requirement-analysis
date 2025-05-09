@@ -112,3 +112,55 @@ Non-functional requirements specify **how the system performs** under certain co
 The following diagram illustrates the primary actors and use cases in a simple booking system:
 
 ![Use Case Diagram](alx-booking-uc.png)
+
+
+## Acceptance Criteria
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+Acceptance Criteria (AC) are essential for defining the conditions that a software product or feature must satisfy in order to be considered complete and functioning as intended. They help in:
+
+1. **Clarifying Requirements**: AC ensure that all stakeholders, including developers, product owners, and testers, have a clear and shared understanding of the feature's functionality and expected behavior.
+2. **Guiding Development**: They provide the development team with specific guidelines, reducing ambiguity and ensuring that the feature meets user needs and expectations.
+3. **Facilitating Testing**: AC serve as the foundation for writing test cases, making it easier to validate whether the feature works as expected before release.
+4. **Providing Traceability**: AC help trace the requirements to the delivered functionality, ensuring that the project stays aligned with business goals and user requirements.
+5. **Ensuring Consistency**: They contribute to consistency in feature development, especially when multiple teams or developers are working on the same project.
+
+### Example of Acceptance Criteria for Checkout Feature
+
+Below is an example of how Acceptance Criteria for a checkout feature in a booking management system could be defined:
+
+---
+
+#### **Acceptance Criteria for Checkout Feature**
+
+1. **AC1**: The user must be able to add a booking to their cart before proceeding to checkout.
+   - **Given** a user has selected a booking, 
+   - **When** they click on the "Add to Cart" button, 
+   - **Then** the booking should appear in the cart.
+
+2. **AC2**: The user must see a summary of their booking details in the cart.
+   - **Given** a user is on the cart page, 
+   - **When** they review their cart, 
+   - **Then** the system should display the booking details (e.g., date, time, location, price).
+
+3. **AC3**: The user must be able to enter payment information on the checkout page.
+   - **Given** a user is ready to checkout, 
+   - **When** they proceed to the checkout page, 
+   - **Then** the page should prompt them to enter payment details (e.g., credit card, PayPal).
+
+4. **AC4**: The system must validate the payment information.
+   - **Given** a user has entered their payment details, 
+   - **When** they submit the payment information, 
+   - **Then** the system should validate the payment details and show an error message if the payment fails.
+
+5. **AC5**: The user must receive a confirmation of the booking once the payment is successful.
+   - **Given** the user has successfully paid for their booking, 
+   - **When** the payment is confirmed, 
+   - **Then** the system should display a confirmation message with booking details and send a confirmation email.
+
+6. **AC6**: The system must allow users to cancel their booking within 24 hours of booking.
+   - **Given** the user is on the booking details page, 
+   - **When** they choose to cancel the booking within 24 hours, 
+   - **Then** the system should cancel the booking and provide a cancellation confirmation.
+
