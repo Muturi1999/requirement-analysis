@@ -111,4 +111,4 @@ Non-functional requirements specify **how the system performs** under certain co
 
 The following diagram illustrates the primary actors and use cases in a simple booking system:
 
-![Still drawing Use Case Diagram and will import it as ](alx-booking-uc.png)
+![Use Case Diagram](alx-booking-uc.png)
