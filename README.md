@@ -12,7 +12,7 @@ The goal of this project is to understand how accurate and thorough requirement 
 
 During this phase, software engineers, business analysts, and stakeholders collaborate to gather both **functional** and **non-functional** requirements. These can include user needs, system behaviors, performance expectations, constraints, and compliance requirements.
 
-###  Importance in the Software Development Lifecycle (SDLC)
+### Importance in the Software Development Lifecycle (SDLC)
 
 1. **Clarifies Project Scope**  
    Clearly defines what the system should do and what it should not do, helping to prevent scope creep and misunderstandings.
